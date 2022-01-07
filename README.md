@@ -1,1 +1,2 @@
-# dbms
+#1
+$sambit$
