@@ -42,21 +42,4 @@ Select dnumber,dname from department d join project p on d.dnumber=p.dnum where 
 ```
 Select fname from employee where not exists (select * from dependent d where ssn=essn);
 ```
-11
-```
-
-```
-12
-```
-
-```
-13
-```
-
-```
-14
-```
-
-```
-
-![Screenshot]
+<img src=screenshot.jpeg>
