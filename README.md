@@ -45,3 +45,22 @@ Select dnumber,dname from department d join project p on d.dnumber=p.dnum where 
 Select fname from employee where not exists (select * from dependent d where ssn=essn);
 ```
 <img src=screenshot.jpeg>
+
+
+<h1>EXP 7</h1>
+1
+```
+Select from empno,ename from emp where empno in (select mgr from emp where mgr is not null);
+```
+2
+
+```
+Select empno,ename from emp where deptno=(Select deptno from emp where ename='BLADE')and sal>1000;
+```
+3
+```
+Select empno,ename from emp where job!='SALESMAN' and sal>all(Select sal from emp whose job='SALESMAN');
+```
+4
+<iframe src=111.pdf>
+
