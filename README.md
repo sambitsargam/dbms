@@ -61,6 +61,6 @@ Select empno,ename from emp where deptno=(Select deptno from emp where ename='BL
 ```
 Select empno,ename from emp where job!='SALESMAN' and sal>all(Select sal from emp whose job='SALESMAN');
 ```
-4
-<iframe src=111.pdf>
+
+https://github.com/SAMBITSARGAM/dbms/blob/main/111.pdf
 
